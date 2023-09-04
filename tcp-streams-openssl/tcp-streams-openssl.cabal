@@ -24,8 +24,8 @@ library
                   ,   System.IO.Streams.OpenSSL
 
   -- other-extensions:    
-  build-depends:        base           >=4.7  && < 5.0
-                    ,   network        >=2.3  && < 3.0
+  build-depends:        base           >= 4.7 && < 5.0
+                    ,   network        >= 2.3 && < 3.2
                     ,   bytestring     >= 0.10.2.0
                     ,   io-streams     >= 1.2 && < 2.0
                     ,   tcp-streams    >= 1.0 && < 1.1
